@@ -12,7 +12,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlashyCard">
         <activity
-            android:name=".MainActivity"
+            android:name=".main.CreateSetAiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.CreateSetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".playing.PlayResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".playing.PlayingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pressplay.PlayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
