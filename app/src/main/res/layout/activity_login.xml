@@ -9,7 +9,7 @@
     tools:context=".login.LoginActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/niceToSeeYou!"
         android:layout_width="258dp"
         android:layout_height="54dp"
         android:fontFamily="@font/nunito_bold"
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.249" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_bold"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.345" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_bold"
@@ -101,7 +101,7 @@
         app:layout_constraintVertical_bias="0.537" />
 
     <ImageButton
-        android:id="@+id/facebook"
+        android:id="@+id/facebookbtn"
         android:layout_width="52dp"
         android:layout_height="42dp"
         android:background="@android:color/transparent"
@@ -115,7 +115,7 @@
         app:srcCompat="@drawable/facebook" />
 
     <ImageButton
-        android:id="@+id/google"
+        android:id="@+id/googlebtn"
         android:layout_width="52dp"
         android:layout_height="42dp"
         android:background="@android:color/transparent"
@@ -129,7 +129,7 @@
         app:srcCompat="@drawable/google" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signupbtn"
         android:layout_width="312dp"
         android:layout_height="53dp"
         android:gravity="center"

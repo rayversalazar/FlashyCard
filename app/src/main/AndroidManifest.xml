@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlashyCard">
         <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
             android:name=".main.CreateSetAiActivity"
             android:exported="false" />
         <activity
