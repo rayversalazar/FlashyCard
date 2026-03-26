@@ -43,6 +43,9 @@
             android:name=".login.LoginActivity"
             android:exported="false" />
         <activity
+            android:name=".overview.OverviewActivity"
+            android:exported="false" />
+        <activity
             android:name=".main.MainActivity"
             android:exported="true">
             <intent-filter>
